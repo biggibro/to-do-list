@@ -46,10 +46,6 @@ export interface TaskDTO {
     status: TaskStatusEnum;
     creatorId: number;
     responsibleId?: number;
-
-    // startDate: string;
-    // endDate: string;
-    // updateDate?: string;
 }
 ```
 
