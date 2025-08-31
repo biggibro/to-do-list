@@ -1,0 +1,34 @@
+.container {
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 4px;
+
+  width: 100%;
+
+  border-radius: 6px;
+  border: 1px solid black;
+
+  box-sizing: border-box;
+  padding: 10px;
+
+  .field {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    column-gap: 4px;
+  }
+
+  transition: .3s background-color;
+
+  &:hover {
+    transition: .3s background-color;
+    background-color: #d7d7d7;
+  }
+}

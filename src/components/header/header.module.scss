@@ -1,0 +1,13 @@
+.container {
+  height: 40px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px;
+  box-sizing: border-box;
+
+  border-bottom: 1px solid;
+}

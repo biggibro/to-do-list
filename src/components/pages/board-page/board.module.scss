@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+
+  .empty {
+    padding-top: 10px;
+  }
+
+  .header {
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid black;
+
+    row-gap: 10px;
+
+    .label {
+      min-width: max-content;
+    }
+  }
+}

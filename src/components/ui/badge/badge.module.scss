@@ -1,0 +1,43 @@
+.container {
+  padding: 2px 4px;
+
+  border-radius: 6px;
+  width: max-content;
+  box-sizing: border-box;
+
+  &.green {
+    color: black;
+    background-color: #71f1aa;
+    border: 1px solid #0d783b;
+  }
+
+  &.gray {
+    color: black;
+    background-color: #bdbdbd;
+    border: 1px solid #4b4b4b;
+  }
+
+  &.black {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  &.red {
+    color: black;
+    background-color: #ff8a8a;
+    border: 1px solid #ff2727;
+  }
+
+  &.orange {
+    color: black;
+    background-color: #ffe2b2;
+    border: 1px solid #ffaf1f;
+  }
+
+  &.blue {
+    color: black;
+    background-color: #65a4ff;
+    border: 1px solid #005de8;
+  }
+}

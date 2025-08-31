@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 6px;
+
+  overflow-y: auto;
+  box-sizing: border-box;
+
+  height: calc(100vh - 40px - 80px);
+
+  padding-top: 10px;
+}

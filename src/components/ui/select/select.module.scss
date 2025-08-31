@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+
+  .label {
+    text-align: left;
+    margin-bottom: 6px;
+  }
+
+  .select {
+    width: 100%;
+    box-sizing: border-box;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  &.SM {
+    .label {
+      font-size: 14px;
+    }
+
+    .select {
+      padding: 1px;
+    }
+  }
+
+  &.MD {
+    .select {
+      padding: 6px;
+    }
+  }
+}
